@@ -5,6 +5,7 @@
 ## [Unreleased]
 
 ## Added
+- Implement `Matrix` class and basic operations. 
 - Basic `Makefile` rules for project compilation/launch. 
 
 ## Fixed 
