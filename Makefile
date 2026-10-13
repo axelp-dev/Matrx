@@ -5,7 +5,7 @@ CXXFLAGS := -std=c++20 -Wall -Wextra -Iinclude -Iinclude/core -Iinclude/entities
 SRCS      := main.cpp $(shell find src -name '*.cpp')
 OBJS      := $(patsubst %.cpp, obj/%.o, $(SRCS))
 
-TEST_SRCS := tests/main_test.cpp
+TEST_SRCS := tests/main_test.cpp src/core/Matrix.cpp tests/test_matrix.cpp
 
 .PHONY: all clean run test
 
